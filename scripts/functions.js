@@ -691,7 +691,7 @@ function($, t, e) {
     gravity: "n",
     offset: 6
   }), $(".skills").typed({
-    strings: ["Node.js", "ASP.NET MVC", "MongoDB", "JavaScript", "Meteor", "C#", "React", "SQL Server", "Ember.js", "HTML5"],
+    strings: ["Node.js", "Meteor", "JavaScript", "ASP.NET MVC", "Web API", "React", "Redux", "MongoDB", "SQL Server"],
     typeSpeed: 130,
     startDelay: 5e3,
     backDelay: 1300,
