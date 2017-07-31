@@ -133,6 +133,9 @@ section,
 summary {
   display: block
 }
+.invisible {
+  display: none
+}
 .section {
   position: relative
 }
