@@ -677,6 +677,9 @@ summary {
     display: block
   }
   .title {
+    font-size: 35px !important
+  }
+  .name {
     font-size: 22px !important
   }
   .text {
