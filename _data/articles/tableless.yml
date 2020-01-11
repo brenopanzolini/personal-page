@@ -1,0 +1,75 @@
+- name: Melhorando a resiliência do seu serviço em Golang
+  url: https://tableless.com.br/resiliencia-golang/
+  date: Aug, 2019
+
+- name: Medindo corretamente a latência dos seus serviços
+  url: https://tableless.com.br/medindo-latencia/
+  date: Mar, 2019
+
+- name: Documentando sua API com Apiary
+  url: https://tableless.com.br/documentando-sua-api/
+  date: Feb, 2019
+
+- name: Entendendo os três tipos de deploy mais comuns
+  url: https://tableless.com.br/tipos-de-deploy/
+  date: Dec, 2018
+
+- name: Datas no PHP com Carbon
+  url: https://tableless.com.br/trabalhando-com-carbon/
+  date: Dec, 2018
+
+- name: Gerenciando seus branches com o Git Flow
+  url: https://tableless.com.br/git-flow-introducao/
+  date: Nov, 2018
+
+- name: Vida longa aos testes de mutação
+  url: https://tableless.com.br/testes-de-mutacao-testando-os-testes/
+  date: Oct, 2018
+
+- name: Uma introdução prática às threads no Node.js
+  url: https://tableless.com.br/threads-nodejs/
+  date: Aug, 2018
+
+- name: Deploy grátis de aplicações na cloud com o Now
+  url: https://tableless.com.br/deploy-apps-zeit/
+  date: Aug, 2018
+
+- name: Fazendo o stub de dependências com Sinon
+  url: https://tableless.com.br/post-stubs-sinon/
+  date: May, 2018
+
+- name: Realizando testes de stress em sua API
+  url: https://tableless.com.br/benchmark-test-wrk/
+  date: Apr, 2018
+
+- name: Congelando seus objetos no JavaScript
+  url: https://tableless.com.br/trabalhando-object-freeze/
+  date: Mar, 2018
+
+- name: Datas no JavaScript com Moment.js
+  url: https://tableless.com.br/trabalhando-com-moment/
+  date: Feb, 2018
+
+- name: Gerenciando aplicações Node.js com PM2
+  url: https://tableless.com.br/node-apps-pm2/
+  date: Jan, 2018
+
+- name: Compilando sua aplicação Elm
+  url: https://tableless.com.br/build-app-elm/
+  date: Oct, 2017
+
+- name: Desenvolvendo sua primeira aplicação com Elm
+  url: https://tableless.com.br/primeiro-app-elm/
+  date: Oct, 2017
+
+- name: Uma maneira divertida para aumentar suas skills em programação
+  url: https://tableless.com.br/como-praticar-programacao/
+  date: Sep, 2017
+
+- name: Seu primeiro Hello World em Elm
+  url: https://tableless.com.br/elm-hello-world/
+  date: Sep, 2017
+
+- name: Introdução ao Elm - diga adeus aos runtime errors
+  url: https://tableless.com.br/introducao-ao-elm/
+  date: Aug, 2017
