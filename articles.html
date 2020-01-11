@@ -1,108 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <title>Breno Panzolini</title>
-      <meta name="viewport" content="width=device-width">
-      <link rel="stylesheet" href="css/remarkdown.css">
-      <link rel="stylesheet" href="css/custom.css">
-   </head>
-   <body class="remarkdown ul-star">
-      <nav>
-         <span>Breno Panzolini</span>
-         <br>
-         <a href="/">about</a>
-         <em>articles</em>
-      </nav>
-      <main>
-         <h1>
-            Articles
-         </h1>
-         <h2>Tableless (pt-BR)</h2>
-         <ul>
-            <li>
-               <time>Aug, 2019</time>
-               <a href="https://tableless.com.br/resiliencia-golang/">Melhorando a resiliência do seu serviço em Golang</a>
-            </li>
-            <li>
-               <time>Mar, 2019</time>
-               <a href="https://tableless.com.br/medindo-latencia/">Medindo corretamente a latência dos seus serviços</a>
-            </li>
-            <li>
-               <time>Feb, 2019</time>
-               <a href="https://tableless.com.br/documentando-sua-api/">Documentando sua API com Apiary</a>
-            </li>
-            <li>
-               <time>Dec, 2018</time>
-               <a href="https://tableless.com.br/tipos-de-deploy/">Entendendo os três tipos de deploy mais comuns</a>
-            </li>
-            <li>
-               <time>Dec, 2018</time>
-               <a href="https://tableless.com.br/trabalhando-com-carbon/">Datas no PHP com Carbon</a>
-            </li>
-            <li>
-               <time>Nov, 2018</time>
-               <a href="https://tableless.com.br/git-flow-introducao/">Gerenciando seus branches com o Git Flow</a>
-            </li>
-            <li>
-               <time>Oct, 2018</time>
-               <a href="https://tableless.com.br/testes-de-mutacao-testando-os-testes/">Vida longa aos testes de mutação</a>
-            </li>
-            <li>
-               <time>Aug, 2018</time>
-               <a href="https://tableless.com.br/threads-nodejs/">Uma introdução prática às threads no Node.js</a>
-            </li>
-            <li>
-               <time>Aug, 2018</time>
-               <a href="https://tableless.com.br/deploy-apps-zeit/">Deploy grátis de aplicações na cloud com o Now</a>
-            </li>
-            <li>
-               <time>May, 2018</time>
-               <a href="https://tableless.com.br/post-stubs-sinon/">Fazendo o stub de dependências com Sinon</a>
-            </li>
-            <li>
-               <time>Apr, 2018</time>
-               <a href="https://tableless.com.br/benchmark-test-wrk/">Realizando testes de stress em sua API</a>
-            </li>
-            <li>
-               <time>Mar, 2018</time>
-               <a href="https://tableless.com.br/trabalhando-object-freeze/">Congelando seus objetos no JavaScript</a>
-            </li>
-            <li>
-               <time>Feb, 2018</time>
-               <a href="https://tableless.com.br/trabalhando-com-moment/">Datas no JavaScript com Moment.js</a>
-            </li>
-            <li>
-               <time>Jan, 2018</time>
-               <a href="https://tableless.com.br/node-apps-pm2/">Gerenciando aplicações Node.js com PM2</a>
-            </li>
-            <li>
-               <time>Oct, 2017</time>
-               <a href="https://tableless.com.br/build-app-elm/">Compilando sua aplicação Elm</a>
-            </li>
-            <li>
-               <time>Oct, 2017</time>
-               <a href="https://tableless.com.br/primeiro-app-elm/">Desenvolvendo sua primeira aplicação com Elm</a>
-            </li>
-            <li>
-               <time>Sep, 2017</time>
-               <a href="https://tableless.com.br/como-praticar-programacao/">Uma maneira divertida para aumentar suas skills em programação</a>
-            </li>
-            <li>
-               <time>Sep, 2017</time>
-               <a href="https://tableless.com.br/elm-hello-world/">Seu primeiro Hello World em Elm</a>
-            </li>
-            <li>
-               <time>Aug, 2017</time>
-               <a href="https://tableless.com.br/introducao-ao-elm/">Introdução ao Elm - diga adeus aos runtime errors</a>
-            </li>
-         </ul>
-         <h2>Propmark (pt-BR)</h2>
-         <ul>
-            <li>
-               <time>Aug, 2018</time>
-               <a href="https://propmark.com.br/digital/e-uma-cilada-como-identificar-falsos-influenciadores-digitais/">É uma cilada: como identificar falsos influenciadores digitais</a>
-            </li>
-         </ul>
-      </main>
-   </body>
-</html>
+---
+layout: default
+permalink: /articles
+---
+
+<h1>Articles</h1>
+
+<h2>Tableless (pt-BR)</h2>
+<ul>
+    {% for art in site.data.articles.tableless %}
+        {% include article_item.html name=art.name url=art.url date=art.date %}
+    {% endfor %}
+</ul>
+
+<h2>Propmark (pt-BR)</h2>
+<ul>
+    {% for art in site.data.articles.propmark %}
+        {% include article_item.html name=art.name url=art.url date=art.date %}
+    {% endfor %}
+</ul>

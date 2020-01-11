@@ -71,8 +71,8 @@ nav > span {
 }
 
 .remarkdown code {
-  color: #802020;  
-} 
+  color: #802020;
+}
 
 @media (max-width: 700px) {
   .remarkdown pre {

@@ -1,0 +1,12 @@
+<nav>
+    <span>Breno Panzolini</span>
+    <br />
+
+    {% for nav in site.data.nav %}
+        {% if nav.url == page.url %}
+            <em>{{nav.name}}</em>
+        {% else %}
+            <a href="{{nav.url}}">{{nav.name}}</a>
+        {% endif %}
+    {% endfor %}
+</nav>
