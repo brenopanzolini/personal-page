@@ -1,5 +1,8 @@
 - name: about
   url: /
 
-- name: articles & talks
-  url: /articles-and-talks
+- name: articles
+  url: /articles
+
+- name: talks
+  url: /talks

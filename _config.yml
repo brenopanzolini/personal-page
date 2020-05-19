@@ -5,3 +5,4 @@ url: "https://brenopanzolini.me" # the base hostname & protocol for your site
 exclude:
   - CNAME
   - README.md
+  - vendor
