@@ -5,6 +5,13 @@ permalink: /articles
 
 <h1>Articles</h1>
 
+<h2>dev.to (en-US)</h2>
+<ul>
+    {% for art in site.data.articles.devto %}
+        {% include article_item.html name=art.name url=art.url date=art.date %}
+    {% endfor %}
+</ul>
+
 <h2>Tableless (pt-BR)</h2>
 <ul>
     {% for art in site.data.articles.tableless %}
