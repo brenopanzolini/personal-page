@@ -63,6 +63,12 @@ nav > span {
   color: #205080;
 }
 
+/* Remove [] from links */
+.remarkdown a::before,
+.remarkdown a::after {
+  content: none;
+}
+
 /* Our own font-family. Also setting one for code elements */
 .remarkdown {
   font-family: Menlo, Monaco, "DejaVu Sans Mono", Consolas, monospace;
