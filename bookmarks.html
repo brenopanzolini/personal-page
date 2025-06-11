@@ -7,6 +7,6 @@ permalink: /bookmarks
 
 <ul>
     {% for b in site.data.bookmarks %}
-        {% include bookmark_item.html name=b.name url=b.url %}
+        {% include bookmark_item.html name=b.name author=b.author url=b.url %}
     {% endfor %}
 </ul>
