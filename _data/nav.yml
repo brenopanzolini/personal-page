@@ -1,8 +1,5 @@
 - name: about
   url: /
 
-- name: articles
-  url: /articles
-
-- name: talks
-  url: /talks
+- name: bookmarks
+  url: /bookmarks
