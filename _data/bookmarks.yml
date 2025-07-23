@@ -9,3 +9,7 @@
 - name: Staff Archetypes
   author: Will Larson
   url: https://staffeng.com/guides/staff-archetypes/
+
+- name: Taxonomy of Tech Debt
+  author: Riot Games
+  url: https://technology.riotgames.com/news/taxonomy-tech-debt
